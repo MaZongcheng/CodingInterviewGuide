@@ -1,7 +1,7 @@
 package Chapter1;
 
 /********************************************************************************
- * CodingInterviewGuide -- 
+ * CodingInterviewGuide -- ConstructOriginalQueue
  * @version 2017/08/30 11:03
  * @author Î÷ÌÆÍõ, xtwyzh@gmail.com,xtwroot.com
  * xtwroot Copyrights (c) 2017. All rights reserved.
@@ -83,6 +83,5 @@ public class _9_ConstructOriginalQueue {
         }
 
     }
-
 
 }
