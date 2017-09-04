@@ -33,7 +33,7 @@ package SchoolRecruit.wangyi2018;
  *
  */
 
-public class LonelyXiaoYi {
+public class 独立的小易 {
 
     public static void main(String[] args){
 
