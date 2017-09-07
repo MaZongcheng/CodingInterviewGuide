@@ -7,7 +7,6 @@ package SchoolRecruit.wangyi2018;
  * xtwroot Copyrights (c) 2017. All rights reserved.
  ********************************************************************************/
 
-
 import java.util.Arrays;
 import java.util.Scanner;
 
