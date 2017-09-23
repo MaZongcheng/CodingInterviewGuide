@@ -1,4 +1,4 @@
-package SchoolRecruit.jingritoutiao2018;
+package SchoolRecruit.jingritoutiao2018.slove_1;
 
 import java.util.Scanner;
 
