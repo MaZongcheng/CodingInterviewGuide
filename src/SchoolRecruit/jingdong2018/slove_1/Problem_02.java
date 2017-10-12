@@ -1,10 +1,7 @@
 package SchoolRecruit.jingdong2018.slove_1;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.Comparator;
 import java.util.PriorityQueue;
-import java.util.Queue;
 
 /********************************************************************************
  * CodingInterviewGuide -- SchoolRecruit.jingdong2018.slove_1
@@ -42,14 +39,13 @@ public class Problem_02 {
 
     public static int getMagicNumber(int l,int r) {
 
-        if(r < 11)
-            return 0;
         int sum = 0;
-        for (int i = 11; i <= r; i++) {
+        for (int i = l; i <= r; i++) {
             if(isMagicNumber(getNumberQueue(i)))
                 ++sum;
         }
         return sum;
+
     }
 
     public static boolean isMagicNumber(PriorityQueue<Integer> queue) {
@@ -84,7 +80,7 @@ public class Problem_02 {
 
     public static void main(String[] args) {
 
-         System.out.println(getMagicNumber(1,101));
+         System.out.println(getMagicNumber(1,100));
 
     }
 
