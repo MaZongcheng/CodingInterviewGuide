@@ -92,7 +92,7 @@ class RandomPool {
 
     }
 
-    public int getRandomNum(int max) {
+    private int getRandomNum(int max) {
 
         return 1 + (int) (Math.random() * (max));
 
